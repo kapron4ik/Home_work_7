@@ -219,13 +219,12 @@ span {
 }
 
 .grow_1{
-/*	flex-grow: 0.17;*/
+
 	flex-grow: 0.4;
 }
 
 .grow_2{
-/*	min-height: 960px;
-	flex-grow: 0.64;*/
+
 	min-width: 960px;
 	flex-grow: 0.4;
 }
@@ -233,19 +232,11 @@ span {
 .ShapeL{
 	width: 22px;
 	object-fit: cover;
-	/*position: absolute;
-	top: 75%;
-	margin-top: -18px;
-	left: -320px;*/
 }
 
 .ShapeR{
 	width: 22px;
 	object-fit: cover;
-/*	position: absolute;
-	top: 75%;
-	margin-top: -18px;
-	right: -300px;*/
 }
 
 .iPhone{
@@ -281,14 +272,12 @@ span {
 	z-index: 4;
 	top: 130px;
 	left: 64px;
-
 }
 .shape4 {
 	position: absolute;
 	top: 490px;
 	left: 700px;
-	
-}
+	}
 
 .blurbs {
 	padding-top: 80px;
@@ -359,7 +348,6 @@ span {
 
 .testimonials {
 	position:absolute;
-/*	width:348px;*/
 	height:268px;
 	padding:35px;
 	left: 0;
@@ -460,7 +448,6 @@ span {
 }
 
 .blog_li img{
-	/*float: left;*/
 	position: absolute;
 	left: 0px;
 	top:-6px;
@@ -485,8 +472,6 @@ hr{
 .logos{
 	padding-top: 20px;
 	padding-bottom: 20px;
-/*	display: flex;
-	justify-content: space-between;*/
 }
 
 .designed{
@@ -522,7 +507,6 @@ hr{
 .second_block p, .third_block p{
 	height: 150px; 
 	overflow:hidden;
-	/*font-size: 15px;*/
 	color: #454545;
 }
 
@@ -542,24 +526,31 @@ hr{
 	flex-grow: 1;
 }
 
+.menu_footer{
+	max-width: 530px; 
+}
+
 .menu_footer li{
 	/*border-bottom: none;-сдвиг вниз при выкл*/
 	padding: 0px;
-	margin-right: 35px;
 }
 
 .menu_footer li:hover{
 	/*розовая полосочка нет*/
 	border-bottom: none;
-
 }
 
 .menu_footer h3{
-	font-size: 15px;
+	font-size: 14px;
 }
 
-.footer div span {
+.pingbull_as{
 	color: #fff;
 	font-size: 12px;
 	text-shadow: 1px 1px 1px #000;
 }
+
+.pingbull_as span span{
+	font-weight: 900;
+}
+
